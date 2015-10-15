@@ -23,7 +23,7 @@ var wt = new WeixinTransfer({
     , ca: "/certs/rootca.pem"
 },functions(err,results){
     if (err) throw err;
-    
+
     //do stuff!
     console.log(results);
 });
