@@ -1,0 +1,10 @@
+{
+  "name": "weixin-transfer",
+  "description": "Making payments with Weixin Transfer",
+  "author": "https://github.com/yatping",
+  "version": "0.0.1",
+  "dependencies": {
+    "xml2js": "^0.4.13"
+  },
+  "main": "index.js"
+}
