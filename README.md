@@ -21,7 +21,7 @@ A node module for you to integrate Weixin transfer (企业付款)
         , sign: "C97BDBACF37622775366F38B629F45E3"
         , cert: "/certs/apiclient_cert.p12"
         , ca: "/certs/rootca.pem"
-    },functions(err,results){
+    },function(err,results){
         if (err) throw err;
         //do stuff!
         console.log(results);
