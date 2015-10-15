@@ -6,8 +6,8 @@ A node module for you to integrate Weixin transfer (企业付款)
 
 ## How to use
 
-    var WeixinTransfer = require('weixin-transfer');
-        var wt = new WeixinTransfer({
+    var WeixinTransfer = require('weixin-transfer');'
+    var wt = new WeixinTransfer({
         mch_appid: "wxe062425f740c30d8"
         , mchid: "10000098"
         , nonce_str: "3PG2J4ILTKCH16CQ2502SI8ZNMTM67VS"
