@@ -43,7 +43,7 @@ WeixinTransfer.prototype.transfer = function transfer(options, callback){
     res.on( "data", function( data ) { buffer = buffer + data; } );
     res.on( "end", function( data ) { 
       parseString(buffer, function (err, result) {
-        callback(null, result);
+        callback(null, result.xml);
       });
     } );
 
