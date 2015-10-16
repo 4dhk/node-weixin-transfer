@@ -1,5 +1,5 @@
 {
-  "name": "weixin-transfer",
+  "name": "node-weixin-transfer",
   "description": "Making payments with Weixin Transfer",
   "author": "https://github.com/yatping",
   "version": "0.0.1",
